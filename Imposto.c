@@ -11,7 +11,7 @@ int main()
     fx3 = 3500.75;
     fx4 = 4000.00;
 
-    printf("Qual o rendimento mensal.\n");
+    printf("Qual o rendimento mensal?\n");
     scanf("%f", &sal);
 
     if(sal <= fx1)
