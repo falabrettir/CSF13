@@ -9,7 +9,7 @@ int main()
         letra = 'A';
         for(j=n; j>i; j--)
         {
-            printf("%c", letra);
+            printf("%c", letra + i);
             letra++;
         }
         printf("\n");
