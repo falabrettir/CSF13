@@ -2,15 +2,12 @@
 int main()
 {
     int n, i, j;
-    char letra = 'A';
     scanf("%d", &n);
     for(i=0;i<=n;i++)
     {
-        letra = 'A' + n-1;
         for(j=n; j>i; j--)
         {
-            printf("%c", letra);
-            letra--;
+            printf("%c", 'A' + n-1-i);
         }
         printf("\n");
     }
