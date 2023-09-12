@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int n, i, j, esp1, esp2, cont;
+    int n, i, j, esp, cont;
     char carac;
     scanf("%c %d",&carac, &n);
     cont = 1;
     for(i=1;i<=2*n+1;i+=2)
     {
-        for(esp1=n; esp1>=cont; esp1--)
+        for(esp=n; esp>=cont; esp--)
         {
             printf(" ");
         }
@@ -21,7 +21,7 @@ int main()
     cont = n;
     for(i=1;i<=2*n;i+=2)
     {
-        for(esp2=cont; esp2<=n; esp2++)
+        for(esp=cont; esp<=n; esp++)
         {
             printf(" ");
         }
