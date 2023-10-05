@@ -6,6 +6,10 @@
 
 #include "trabalho1.h"
 #include <math.h>
+<<<<<<< Updated upstream
+=======
+#include <stdio.h>
+>>>>>>> Stashed changes
 
 /*==================================== Declara√ß√£o de fun√ß√µes extras. ===================================*/
 float calculaCentro (int a, int b);
@@ -64,10 +68,17 @@ int calculaInterseccao (int n_retangulos)
 /**=============================================================================================================================================*/
 unsigned int encontraParMaisProximo (int n_retangulos)
 {
+<<<<<<< Updated upstream
     /*==================================== Declara√ß√£o de vari√°veis. ====================================*/
     int i, j; //Contadores de ret√¢ngulo
     int i_Menor = 0 ,j_Menor = 1; //Esta inicializa√ß√£o √© necess√°ria para os casos que a menor dist√¢ncia seja entre os ret√¢ngulos 0 e 1.*/
     float xcentro_Principal, xcentro_J; //Centros dos ret√¢ngulos principal e "jot√©simo"//
+=======
+    /*==================================== DeclaraÁ„o de vari·veis. ====================================*/
+    unsigned int i, j; //Contadores de ret‚ngulo
+    unsigned int i_Menor = 0,j_Menor = 1; //Esta inicializaÁ„o È necess·ria para os casos que a menor dist‚ncia seja entre os ret‚ngulos 0 e 1.*/
+    float xcentro_Principal, xcentro_J; //Centros dos ret‚ngulos principal e "jotÈsimo"//
+>>>>>>> Stashed changes
     float ycentro_Principal, ycentro_J; //=============================================//
     float dist_Atual, dist_Menor; //Dist√¢ncias calculadas por pit√°goras.
     /*==================================================================================================*/
@@ -108,7 +119,11 @@ unsigned int encontraParMaisProximo (int n_retangulos)
 /**====================================================== Fun√ß√µes Auxiliares ====================================================================*/
 float calculaCentro (int a, int b)
 {
+<<<<<<< Updated upstream
     return (a + b)/2.0; //O c√°lculo das coordenadas do centro de um ret√¢ngulo √© realizado somando as duas coordenadas XSE e XID ou YSE e YID
+=======
+    return (float) (a + b)/2; //O c·lculo das coordenadas do centro de um ret‚ngulo È realizado somando as duas coordenadas XSE e XID ou YSE e YID
+>>>>>>> Stashed changes
                         //e dividindo por 2.
 }
 /**---------------------------------------------------------------------------------------------------------------------------------------------*/
