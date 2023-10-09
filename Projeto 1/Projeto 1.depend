@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1695865457 source:c:\users\rodri\onedrive\documentos\projeto 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"trabalho1.h"
+
+1695235534 c:\users\rodri\onedrive\documentos\projeto 1\trabalho1.h
+
+1695235534 source:c:\users\rodri\onedrive\documentos\projeto 1\trabalho1.c
+	<stdio.h>
+	<stdlib.h>
+
+1695931333 source:c:\users\rodri\onedrive\documentos\projeto 1\t1_2602709.c
+	"trabalho1.h"
+
+1696191917 source:c:\users\rodri\onedrive\documentos\github\csf13\projeto 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"trabalho1.h"
+
+1695235534 c:\users\rodri\onedrive\documentos\github\csf13\projeto 1\trabalho1.h
+
+1695235534 source:c:\users\rodri\onedrive\documentos\github\csf13\projeto 1\trabalho1.c
+	<stdio.h>
+	<stdlib.h>
+
+1695984664 source:c:\users\rodri\onedrive\documentos\github\csf13\projeto 1\t1_2602709.c
+	"trabalho1.h"
+	<math.h>
+	<stdio.h>
+
